@@ -42,7 +42,6 @@ public function hubungi($id)
 {
 
     $skpd = skpdModel::where('id_skpd',$id)->first();
-    //dd($skpd);
     return view('pencatatan.hubungi', compact('skpd'));
     
 }

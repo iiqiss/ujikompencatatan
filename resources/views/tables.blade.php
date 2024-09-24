@@ -46,27 +46,29 @@
                                 <td>{{ $no + 1 }}</td>
                                 <td>{{ $skpd->nama_skpd }}</td>
                                 <td>{{ $skpd->alamat_skpd }}</td>
+                                @foreach ($data as  $data)
                                 <td>
-                                    @if ($skpd->status_pengumpulan == 'sudah')
+                                    @if ($data->status_pengumpulan == 'sudah')
                                         <span class="badge badge-success">Sudah</span>
-                                    @elseif($skpd->status_pengumpulan == 'sedang_dikerjakan')
+                                    @elseif($data->status_pengumpulan == 'sedang_dikerjakan')
                                         <span class="badge badge-warning">Sedang Dikerjakan</span>
                                     @else
                                         <span class="badge badge-danger">Belum</span>
                                     @endif
                                 </td>
                                 </td>
-                                <td>{{ $skpd->keterangan_pengumpulan }}</td>
-                                <td>{{ $skpd->tanggal_pengumpulan }}</td>
-                                <td>{{ $skpd->tahun_pengumpulan }}</td>
+                                <td>{{ $data->keterangan_pengumpulan }}</td>
+                                <td>{{ $data->tanggal_pengumpulan }}</td>
+                                <td>{{ $data->tahun_pengumpulan }}</td>
                                 <td>
-                                    <a href="{{ asset('file/' . $skpd->file) }}">Lihat Dokumen</a>
+                                    <a href="{{ asset('file/' . $data->file) }}">Lihat Dokumen</a>
                                 </td>
                                 <td>
                                     <h1 class="h3 mb-0 text-gray-800"></h1>
-                                    <a href="{{ route('pencatatan.input', $skpd->id_skpd) }}"
+                                    <a href="{{ route('pencatatan.input', $data->id_skpd) }}"
                                         class="d-none d-sm-inline-block btn btn-sm btn-primary">Input</a>
                                 </td>
+                                @endforeach
                                 <td>
                                     <h1 class="h3 mb-0 text-gray-800"></h1>
                                     <a href="{{ route('pencatatan.hubungi', $skpd->id_skpd) }}"

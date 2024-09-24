@@ -16,8 +16,9 @@ class PengelolaController extends Controller
     public function tables()
     {
         //
-        $skpd = skpdModel::with('data')->get();
-        return view('tables', compact('skpd'));
+        $skpd = skpdModel::all();
+        $data= data::all();
+        return view('tables', compact('skpd','data'));
 
     }
     public function submit(Request $request){
