@@ -40,6 +40,8 @@ Website ini merupakan aplikasi pencatatan laporan membantu pengguna mengelola la
 
 
 ## Instalasi
+
+
 1.Clone Repositori
 ```
 git clone https://github.com/iiqiss/ujikompencatatan.git
@@ -47,17 +49,25 @@ composer install
 cp .env.example .env
 ```
 2.Konfigurasi Database di file .env
-```bash
+```
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
 DB_DATABASE=ujikompencatatan2
 DB_USERNAME=root
 DB_PASSWORD=
+```
+3.melakukan migrasi dan seed
+```
+php artisan migrate
+php artisan db:seed UserTableSeeder
+```
+4.Running website
+```
+php artisan serve
+```
 
-
-
-
+#ERD & Relasi antar tabel
 ![image](https://github.com/user-attachments/assets/3bf9b699-16ed-4c75-aa86-f761f090e701)
-
+#UML Diagram Use Case
 ![image](https://github.com/user-attachments/assets/fa81897c-f4d1-4cac-b95e-2fa92f8d7630)
