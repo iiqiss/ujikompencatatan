@@ -7,8 +7,8 @@ Website ini merupakan aplikasi pencatatan laporan membantu pengguna mengelola la
 - Menampilkan tabel laporan.
 - Mengakses kontak karyawan (bagi yang belum login).
 ## Authentication
--login
--logout
+- login
+- logout
 ## multi user
 
 
