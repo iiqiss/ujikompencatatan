@@ -45,7 +45,14 @@ Website ini merupakan aplikasi pencatatan laporan membantu pengguna mengelola la
 git clone https://github.com/iiqiss/ujikompencatatan.git
 composer install
 cp .env.example .env
-
+2.Konfigurasi Database di file .env
+```bash
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=ujikompencatatan2
+DB_USERNAME=root
+DB_PASSWORD=
 
 
 
