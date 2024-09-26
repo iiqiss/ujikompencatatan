@@ -44,7 +44,7 @@ Website ini merupakan aplikasi pencatatan laporan membantu pengguna mengelola la
 ```bash
 git clone https://github.com/iiqiss/ujikompencatatan.git
 composer install
-cp .env.example .env
+cp .env.example .env```
 2.Konfigurasi Database di file .env
 ```bash
 DB_CONNECTION=mysql
