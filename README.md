@@ -6,10 +6,10 @@ Website ini merupakan aplikasi pencatatan laporan membantu pengguna mengelola la
 ## Halaman Awal 
 - Menampilkan tabel laporan.
 - Mengakses kontak karyawan (bagi yang belum login).
-##Authentication
+## Authentication
 -login
 -logout
-##multi user
+## multi user
 
 
 ### 2.karyawan (User)
@@ -26,11 +26,11 @@ Website ini merupakan aplikasi pencatatan laporan membantu pengguna mengelola la
 
 ## Akun
 -pengelola
---Email : pengelola@gmail.com
---Password : pengelola1234
+-Email : pengelola@gmail.com
+-Password : pengelola1234
 -karyawan
---Email : karyawan@gmail.com
---Password : karyawan1234
+-Email : karyawan@gmail.com
+-Password : karyawan1234
 
 ## Teknologi yang Digunakan
 
