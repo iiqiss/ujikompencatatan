@@ -25,12 +25,12 @@ Website ini merupakan aplikasi pencatatan laporan membantu pengguna mengelola la
 - Menghapus data dinas.
 
 ## Akun
--pengelola
--Email : pengelola@gmail.com
--Password : pengelola1234
--karyawan
--Email : karyawan@gmail.com
--Password : karyawan1234
+1.pengelola
+- Email : pengelola@gmail.com
+- Password : pengelola1234
+2. karyawan
+- Email : karyawan@gmail.com
+- Password : karyawan1234
 
 ## Teknologi yang Digunakan
 
