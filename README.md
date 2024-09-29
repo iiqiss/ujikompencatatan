@@ -15,13 +15,11 @@ Website ini merupakan aplikasi pencatatan laporan membantu pengguna mengelola la
 ### 2.karyawan (User)
 - Menginput data laporan.
 - Memperbarui data laporan.
-- Mengisi kontak karyawan.
 - Melihat dan menghubungi kontak pengelola.
 
 ### 3. Pengelola (Admin)
 - Menambah data dinas baru.
 - Mengisi kontak pengelola.
-- Melihat dan menghubungi kontak karyawan.
 - Menghapus data dinas.
 
 ## Akun
