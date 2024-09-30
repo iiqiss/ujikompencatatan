@@ -57,6 +57,8 @@ DB_PASSWORD=
 ```
 3.melakukan migrasi dan seed
 ```
+php artisan key:generate
+php artisan storage:link
 php artisan migrate
 php artisan db:seed UserTableSeeder
 ```
