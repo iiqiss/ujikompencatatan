@@ -58,6 +58,9 @@
                                             </div>
                                             <button type="submit"
                                                 class="btn btn-primary  btn-user btn-block">Login</button>
+                                            <a href="{{ route('tables') }}" class="btn btn-google btn-user btn-block">
+                                              masuk tanpa login
+                                             </a>
                                         </form>
                                     </div>
                                 </div>

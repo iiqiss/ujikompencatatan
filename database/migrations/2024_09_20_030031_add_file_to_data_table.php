@@ -15,7 +15,7 @@ return new class extends Migration
     {
         Schema::table('data', function (Blueprint $table) {
             //
-            $table->string('file')->nullable;
+            $table->string('file')->nullable();
         });
     }
 

@@ -27,7 +27,7 @@ class SessionController extends Controller
             'password' =>$request->password
         ];
         if (Auth::attempt($infologin)) {
-            return redirect('/');
+            return redirect('/tables');
         }
         else{
             return redirect('login');
@@ -36,6 +36,6 @@ class SessionController extends Controller
     }
     public function logout(){
         Auth::logout();
-        return redirect('/login');
+        return redirect('/');
     }
 }

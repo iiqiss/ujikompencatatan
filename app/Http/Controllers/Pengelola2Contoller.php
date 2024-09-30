@@ -17,12 +17,7 @@ class Pengelola2Contoller extends Controller
     {
         //
     }
-    public function pengelola($id)
-    {
-        //
-        $skpd = skpdModel::find($id);
-        return view('pencatatan.pengelola',compact('skpd'));
-    }
+   
     public function enter(Request $request,$id)
 {
     $validateData =$request->validate([

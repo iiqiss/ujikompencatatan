@@ -19,6 +19,7 @@ class data extends Model
                            'link_metadata',
                            'link_rekomendasi',
                            'file',
+                           
                         ];
     public function data (){
         return $this->belongsTo(skpdModel::class, 'id_skpd', 'id_skpd');

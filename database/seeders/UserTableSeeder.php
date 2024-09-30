@@ -18,7 +18,8 @@ class UserTableSeeder extends Seeder
     {
         //
         $users = [
-            ['name'=> 'ars' , 'email'=>'ars@gmail.com', 'password'=>Hash::make('12345')],
+            ['name'=> 'pengelola' , 'email'=>'pengelola@gmail.com', 'password'=>Hash::make('pengelola1234')],
+            ['name'=> 'karyawan', 'email'=>'karyawan@gmail.com', 'password'=>Hash::make('karyawan1234')],
         ];
         DB::table('users')->insert($users);
     }

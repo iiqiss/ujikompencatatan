@@ -66,5 +66,6 @@ class Kernel extends HttpKernel
         'verified' => \Illuminate\Auth\Middleware\EnsureEmailIsVerified::class,
 
         'inilogin' => \App\Http\Middleware\inilogin::class,
+        'initamu' => \App\Http\Middleware\initamu::class,
     ];
 }

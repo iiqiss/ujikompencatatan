@@ -17,10 +17,10 @@ class inilogin
      */
     public function handle(Request $request, Closure $next)
     {
-        if(Auth::check())
+        if(Auth::check()&& Auth::user()->name == 'pengelola')
         {
             return $next($request);
         }
-        return redirect('sesi')->withErrors('Masuhkan Username Dan Password Yang Valid ');
+        return redirect('sesi')->withErrors('Anda tidak memiliki akses sebagai Pengelola');
     }
 }
