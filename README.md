@@ -11,7 +11,7 @@ Website ini merupakan aplikasi pencatatan laporan membantu pengguna mengelola la
 - logout
 ## multi user
 ### 1.User (Belum login)
--melihat tabel data
+- melihat tabel data
 ### 2.karyawan (User)
 - Menginput data laporan.
 - Memperbarui data laporan.
