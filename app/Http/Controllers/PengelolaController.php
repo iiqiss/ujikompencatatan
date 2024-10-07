@@ -16,7 +16,6 @@ class PengelolaController extends Controller
     {
         //
         $skpd = skpdModel::with('data')->get();
-        
         return view('tables', compact('skpd',));
 
     }
