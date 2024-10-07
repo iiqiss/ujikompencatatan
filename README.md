@@ -10,8 +10,8 @@ Website ini merupakan aplikasi pencatatan laporan membantu pengguna mengelola la
 - login
 - logout
 ## multi user
-
-
+### 1.User (Belum login)
+- melihat tabel data
 ### 2.karyawan (User)
 - Menginput data laporan.
 - Memperbarui data laporan.
@@ -72,4 +72,5 @@ php artisan serve
 
 
 # UML Diagram Use Case
-![image](https://github.com/user-attachments/assets/fa81897c-f4d1-4cac-b95e-2fa92f8d7630)
+![WhatsApp Image 2024-10-03 at 15 48 18_4fe00e0b](https://github.com/user-attachments/assets/7ac3ef98-417f-4cea-866e-161354db8b4b)
+
